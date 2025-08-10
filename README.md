@@ -10,7 +10,7 @@ This document provides a detailed specification for all backend API endpoints re
     ```json
     {
       "success": true,
-      "data": { ... }
+      "data": {}
     }
     ```
 -   **Standard Error Response:**
@@ -20,7 +20,7 @@ This document provides a detailed specification for all backend API endpoints re
       "error": {
         "code": "ERROR_CODE",
         "message": "A descriptive error message.",
-        "details": { /* (Optional) Field-specific validation errors */ }
+        "details": {}
       }
     }
     ```
